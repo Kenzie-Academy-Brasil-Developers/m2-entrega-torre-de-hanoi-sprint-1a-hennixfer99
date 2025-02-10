@@ -4,7 +4,7 @@
     border: 1px solid white;
     border-radius: 16px;
     background-color: rgba(255, 255, 255, 0.341);
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(5px);
     height: 30vh;
     width: 60vw;
     text-align: center;
@@ -18,7 +18,7 @@
     background-color: rgba(255, 255, 255, 0.292);
     color: black;
     border: 1px solid black;
-    margin: 45px 0 0 0;
+    margin: 15px 0 0 0;
 }
 
 body {
@@ -70,7 +70,7 @@ button:hover {
     height: 40px;
     position: relative;
     border: 1px black solid;
-    border-radius: 25%;
+    border-radius: 16px;
     background: linear-gradient(120deg, green, white);
 }
 .disco4 {
@@ -78,7 +78,7 @@ button:hover {
     height: 40px;
     position: relative;
     border: 1px black solid;
-    border-radius: 25%;
+    border-radius: 16px;
     background: linear-gradient(120deg, orange, yellow);
 }
 .disco3 {
@@ -86,7 +86,7 @@ button:hover {
     height: 40px;
     position: relative;
     border: 1px black solid;
-    border-radius: 25%;
+    border-radius: 16px;
     background: linear-gradient(120deg, red, pink);
 }
 .disco2 {
@@ -94,7 +94,7 @@ button:hover {
     height: 40px;
     position: relative;
     border: 1px black solid;
-    border-radius: 25%;
+    border-radius: 16px;
     background: linear-gradient(120deg, blue, aqua);
 }
 .disco1 {
@@ -102,7 +102,7 @@ button:hover {
     height: 40px;
     position: relative;
     border: 1px black solid;
-    border-radius: 25%;
+    border-radius: 16px;
     background: linear-gradient(120deg, purple, white);
 }
 .disco0 {
@@ -110,7 +110,7 @@ button:hover {
     height: 40px;
     position: relative;
     border: 1px black solid;
-    border-radius: 25%;
+    border-radius: 16px;
     background: linear-gradient(120deg, cyan, white);
 }
 
@@ -167,10 +167,6 @@ button:hover {
         padding: 2% 0;
         top: 15%;
         left: 17%;
-    }
-
-    .exit {
-        margin-top: 15%;
     }
 
     body {
