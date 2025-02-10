@@ -165,9 +165,9 @@ function discos(){
 const diffs = document.getElementsByClassName("buttons")
 
 //Botão de reset
-const teste1 = document.getElementById("Comeco")
+const buttonRestart = document.getElementById("buttonRestart");
 const start_button = document.createElement("button");
-    teste1.appendChild(start_button)
+    buttonRestart.appendChild(start_button)
     start_button.addEventListener("click", () => {
 
     torre1.innerHTML = ""
